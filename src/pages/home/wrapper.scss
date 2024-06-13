@@ -1,0 +1,70 @@
+.wrapper{
+    background-image: url("/public/BgImg.png");
+    background-size:contain;
+    background-position:top;
+    background: cover;
+    height: 800px;
+    
+    &__block{
+        width: 643px;
+        height: 443px;
+        border-radius: 10px;
+        background: #FFF3E3;
+        margin-left: 739px;
+        position: absolute;
+        top: 310px;
+    }
+
+    &__text{
+        color: var(--Font-Color, #333);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 3px;
+        margin-left: 41px;
+        padding-top: 40px;
+        margin-bottom: -20px;
+    }
+
+    &__title{
+        color: var(--Primary, #B88E2F);
+        font-family: Poppins;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 65px;
+        width: 450px;
+        margin-left: 41px;
+        margin-bottom: 17px;
+    }
+
+    &__desc{
+        color: var(--Font-Color, #333);
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        width: 540px;
+        margin-bottom: 46px;
+        margin-left: 41px;
+    }
+
+    &__btn{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        padding: 25px 72px;
+        background: var(--Primary, #B88E2F);
+        border: none;
+        cursor: pointer;
+        margin-left: 41px;
+    }
+
+}
